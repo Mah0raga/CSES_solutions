@@ -71,7 +71,10 @@ int main(){
     }
 }
         --------------------------------------------------------------------------------------------------------
-       
+       - One last thing why set<arr<int, 2>>
+       why we store the value and its order {t, i}
+       - We want to use sets and sets store only unique elemtns to solve this problem
+       we have added the index to now we can store duplicate elements
        */
         auto it = s.lower_bound({t, 0});
         if((*it)[0] == t){
